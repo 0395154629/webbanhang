@@ -1,0 +1,32 @@
+﻿@{
+    var id = ViewData["id"];
+}
+<input type="text" id="id" value="@id" style="display:none" />
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="NameCategory">Tên loại danh mục</label>
+        <input type="text" class="form-control" id="NameCategory" value="" placeholder="Tên danh mục">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="image">Chọn hình ảnh</label>
+        <input type="file" class="form-control" id="image" placeholder="">
+    </div>
+</div>
+<button onclick="EditCategory(@id)" class="btn btn-primary">Thêm</button>
+<script>
+    getCartById()
+    function getCartById() {
+        var id = $('#id').val();
+        $.ajax({
+            type: 'GET',
+            url: 'https://localhost:44388/api/Category/Get_Categorys?id='+id,
+            success: function (response) {
+                console.log(response.data[0].nameCategory)
+                $('#NameCategory').val(response.data[0].nameCategory);
+            },
+            error: function (xhr, status, error) {
+
+            }
+        })
+    }
+</script>

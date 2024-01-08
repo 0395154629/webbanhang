@@ -1,0 +1,121 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\123.png",
+      "PackagePath": "staticwebassets\\images\\123.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\12312312.png",
+      "PackagePath": "staticwebassets\\images\\12312312.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\1234.png",
+      "PackagePath": "staticwebassets\\images\\1234.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\123452.png",
+      "PackagePath": "staticwebassets\\images\\123452.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\acer.png",
+      "PackagePath": "staticwebassets\\images\\acer.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\acer1.png",
+      "PackagePath": "staticwebassets\\images\\acer1.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\ad.png",
+      "PackagePath": "staticwebassets\\images\\ad.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\asus.png",
+      "PackagePath": "staticwebassets\\images\\asus.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\danh.png",
+      "PackagePath": "staticwebassets\\images\\danh.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\dell.png",
+      "PackagePath": "staticwebassets\\images\\dell.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\duyphuong.png",
+      "PackagePath": "staticwebassets\\images\\duyphuong.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\ggggg.png",
+      "PackagePath": "staticwebassets\\images\\ggggg.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\hhhh.png",
+      "PackagePath": "staticwebassets\\images\\hhhh.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\hhhhhhh.png",
+      "PackagePath": "staticwebassets\\images\\hhhhhhh.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\hphuc.png",
+      "PackagePath": "staticwebassets\\images\\hphuc.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\laptoptest.png",
+      "PackagePath": "staticwebassets\\images\\laptoptest.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\maytinh.png",
+      "PackagePath": "staticwebassets\\images\\maytinh.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\nhan.png",
+      "PackagePath": "staticwebassets\\images\\nhan.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\nhi.png",
+      "PackagePath": "staticwebassets\\images\\nhi.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\pc.png",
+      "PackagePath": "staticwebassets\\images\\pc.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\phucs.png",
+      "PackagePath": "staticwebassets\\images\\phucs.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\phuong.png",
+      "PackagePath": "staticwebassets\\images\\phuong.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\phuong1.png",
+      "PackagePath": "staticwebassets\\images\\phuong1.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\pj.png",
+      "PackagePath": "staticwebassets\\images\\pj.png"
+    },
+    {
+      "Id": "D:\\_Duy_Phuong\\web ban hang\\PNPStore\\PNPStore\\PNPStore\\wwwroot\\images\\tuan.png",
+      "PackagePath": "staticwebassets\\images\\tuan.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PNPStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PNPStore.props",
+      "PackagePath": "build\\PNPStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PNPStore.props",
+      "PackagePath": "buildMultiTargeting\\PNPStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PNPStore.props",
+      "PackagePath": "buildTransitive\\PNPStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

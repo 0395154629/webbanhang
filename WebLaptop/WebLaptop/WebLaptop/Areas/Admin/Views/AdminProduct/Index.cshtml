@@ -1,0 +1,172 @@
+﻿
+@{
+    ViewData["Title"] = "GetList";
+    Layout = "~/Areas/Admin/Views/Share/_Layout.cshtml";
+}
+<button type="button" onclick="LoadCreate()" class="btn btn-primary mb-3 mt-3">Thêm</button>
+<div class="row" id="body-content">
+
+</div>
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width:800px">
+            <div class="modal-header text-center">
+                <h4 id="modal-title" class="modal-title w-100 font-weight-bold">Thêm sản phẩm</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body mx-3" id="modalBody">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="~/myLib/js/bootstrap.js" rel="stylesheet" />
+<link href="~/myLib/js/custom.js" rel="stylesheet" />
+<script src="~/myLib/js/CURD_Function.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+        $(document).ready(function () {
+            LoadGetList();
+        });
+        function LoadGetList() {
+            $.ajax({
+                url: '@Url.Action("GetList")',
+                success: function (response) {
+                    $('#body-content').html(response)
+                },
+                error: function (xhr, status, error) {
+
+                }
+            });
+        }
+        function LoadCreate() {
+            $.ajax({
+                url: '@Url.Action("Create")',
+                success: function (response) {
+                $('#modal').modal('show')
+                $('#modalBody').html(response)
+                },
+                error: function (xhr, status, error) {
+
+                }
+            });
+        }
+        function LoadEdit(id) {
+            $.ajax({
+                url: '@Url.Action("Edit")',
+                data: {id:id},
+                success: function (response) {
+                $('#modal').modal('show')
+                $('#modalBody').html(response)
+                $('#modal-title').html('Sửa sản phẩm')
+                },
+                error: function (xhr, status, error) {
+
+                }
+            });
+        }
+    function convertFormDataToObject(formData) {
+        const obj = {};
+        for (const [key, value] of formData.entries()) {
+            obj[key] = value;
+        }
+        return obj;
+    }
+    function addProduct() {
+        var formData = new FormData(); 
+        formData.append('NameProduct', $('#nameProduct').val());
+        formData.append('IdCate', $('#catogeryId').val());
+        formData.append('price', $('#price').val());
+        formData.append('Quantity', $('#quantity').val());
+        formData.append('CPU', $('#cpu').val());
+        formData.append('RAM', $('#ram').val());
+        formData.append('Disk', $('#disk').val());
+        formData.append('description', $('#description').val());
+        formData.append('Graphics', $('#graphics').val());
+        formData.append('Color', $('#color').val());
+        var input = document.getElementById('image');
+        if (input.files && input.files[0]) {
+            formData.append('Image', input.files[0]);
+        } else {
+            console.log('Không có tệp tin được chọn');
+        }
+      
+        $.ajax({
+            url: 'https://localhost:44388/api/Product/Create_Product',
+            type: "POST",
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                $('#modal').modal('hide')
+                alert(response.message);
+                location.reload()
+            },
+            error: function (xhr, status, error) {
+                var response = JSON.parse(xhr.responseText);
+                alert(response.message);
+            }
+        });
+    }
+    function EditProduct(id) {
+        var formData = new FormData();
+        formData.append('NameProduct', $('#nameProduct').val());
+        formData.append('IdCate', $('#catogeryId').val());
+        formData.append('price', $('#price').val());
+        formData.append('Quantity', $('#quantity').val());
+        formData.append('CPU', $('#cpu').val());
+        formData.append('RAM', $('#ram').val());
+        formData.append('Disk', $('#disk').val());
+        formData.append('description', $('#description').val());
+        formData.append('Graphics', $('#graphics').val());
+        formData.append('Color', $('#color').val());
+        var input = document.getElementById('imageEdit');
+        if (input.files && input.files[0]) {
+            formData.append('Image', input.files[0]);
+        } else {
+            console.log('Không có tệp tin được chọn');
+        }
+        console.log(id)
+        $.ajax({
+            url: 'https://localhost:44388/api/Product/Update_Product/'+id,
+            type: "PUT",
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                $('#modal').modal('hide')
+                alert(response.message);
+                location.reload()
+            },
+            error: function (xhr, status, error) {
+                var response = JSON.parse(xhr.responseText);
+                alert(response.message);
+            }
+        });
+    }
+    function Delete(id) {
+        if (confirm("Bạn có chắc xóa sản phẩm này không")) {
+            $.ajax({
+                url: 'https://localhost:44388/api/Product/Delete_Product/' + id,
+                type: "DELETE",
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    $('#modal').modal('hide')
+                    alert(response.message);
+                    location.reload()
+                },
+                error: function (xhr, status, error) {
+                    var response = JSON.parse(xhr.responseText);
+                    alert(response.message);
+                }
+            });
+        }
+    }
+</script>

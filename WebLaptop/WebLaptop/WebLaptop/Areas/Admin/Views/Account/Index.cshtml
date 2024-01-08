@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "GetList";
+    Layout = "~/Areas/Admin/Views/Share/_Layout.cshtml";
+}
+<div class="row" id="body-content">
+</div>
+<link href="~/myLib/js/bootstrap.js" rel="stylesheet" />
+<link href="~/myLib/js/custom.js" rel="stylesheet" />
+<script src="~/myLib/js/CURD_Function.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        LoadGetList();
+    });
+    function LoadGetList() {
+        $.ajax({
+            url: '@Url.Action("GetList")',
+            success: function (response) {
+                $('#body-content').html(response)
+            },
+            error: function (xhr, status, error) {
+
+            }
+        });
+    }
+</script>

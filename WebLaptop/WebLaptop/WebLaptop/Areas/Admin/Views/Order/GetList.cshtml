@@ -1,0 +1,79 @@
+﻿<style>
+    td {
+        max-width: 200px; /* Độ rộng tối đa của ô */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<table class="table table-bordered">
+        <tr>
+            <th>Tên khách hàng</th>
+            <th>Địa chỉ</th>
+            <th>Email</th>
+            <th>Số điện thoại</th>
+            <th>Tên sản phẩm</th>
+            <th>Số lượng</th>
+            <th>Tổng tiền</th>
+            <th>Tình trạng</th>
+            
+        </tr>
+    <tbody id="table-content">
+    </tbody>
+</table>
+<script>
+    loadOrder()
+    function loadOrder() {
+        var table_content = $('#table-content')
+        $.ajax({
+            type: 'GET',
+            url: 'https://localhost:44388/api/Order/GetOrderAsync',
+            data: {},
+            success: function (response) {
+                response.data.forEach(function (order, index) {
+                    var accounts = order.accounts;
+                    console.log(order.products)
+                   
+             
+                    var tableRow =
+                        `
+                                <tr>
+                                        <td>${accounts.fullname}</td>
+                                             <td>${accounts.address}</td>
+                                         <td>${accounts.email}</td>
+                                         <td>${accounts.phoneNumber}</td>
+                                    <td>
+                                           ${order.products.nameProduct}
+                                    </td>
+                                        <td>${order.quantity}</td>
+                                            <td>${(order.price).toLocaleString()} VNĐ</td>
+                                               <td>
+                                                    <button id="confirmButton_${index}" onclick="confirmButtonClick(${index})" class="btn btn-warning">Chờ xác nhận</button>
+                                            </td>
+                                </tr>
+                                `;
+
+                    $('#table-content').append(tableRow); // Thêm dòng mới vào bảng
+                })
+            },
+            error: function (xhr, status, error) {
+                var response = JSON.parse(xhr.responseText);
+
+            }
+        });
+    }
+    function confirmButtonClick(index) {
+        var button = document.getElementById(`confirmButton_${index}`);
+        if (button) {
+            setTimeout(() => {
+                button.classList.remove('btn-warning');
+                button.classList.add('btn-primary');
+                button.innerHTML = 'Đã xác nhận';
+            },300)
+           
+        }
+        else {
+            console.log(index)
+        }
+    }
+</script>

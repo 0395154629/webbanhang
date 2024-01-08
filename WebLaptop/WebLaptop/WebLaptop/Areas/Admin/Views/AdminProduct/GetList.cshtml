@@ -1,0 +1,77 @@
+﻿<style>
+    td {
+        max-width: 200px; /* Độ rộng tối đa của ô */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<table class="table table-bordered">
+
+        <tr>
+            <th>STT</th>
+            <th>Tên sản phẩm</th>
+            <th>Loại sản phẩm</th>
+            <th>Giá</th>
+            <th>Hình ảnh</th>
+            <th>Mô tả </th>
+            <th>Số lượng</th>
+            <th>Màu sắc</th>
+            <th>CPU</th>
+            <th>Ram</th>
+            <th>Disk</th>
+            <th>Graphics</th>
+        </tr>
+
+    <tbody id="table-content">
+    </tbody>
+</table>
+<script>
+    loadProduct()
+    function loadProduct() {
+        var table_content = $('#table-content')
+        $.ajax({
+            type: 'GET',
+            url: 'https://localhost:44388/api/Product/Get_Product',
+            data: {},
+            contentType: 'application/json',
+            success: function (response) {
+                response.data.forEach(function (product, index) {
+                    console.log(product)
+                    var tableRow =
+                        `
+                            <tr>
+                                <td class ="bold">
+                                             <a onclick="LoadEdit(${product.id})" class="btn">
+                                            <i class="fa fa-edit"></i> Sửa
+                                        </a>
+                                            <a onclick="Delete(${product.id})" class="btn">
+                                            <i class="fa fa-trash"></i> Xoá
+                                        </a>
+                                </td>
+                                <td>${product.nameProduct}</td>
+                                <td>${product.categories.nameCategory}</td>
+                                <td>${product.price}</td>
+                                <td>
+                                <img src ="${product.image}" width ="50" height ="50" />
+                                </td>
+                                <td>${product.description}</td>
+                                <td>${product.quantity}</td>
+                                <td>${product.color}</td>
+                                <td>${product.cpu}</td>
+                                <td>${product.ram}</td>
+                                <td>${product.disk}</td>
+                                <td>${product.graphics}</td>
+                            </tr>
+                            `;
+
+                    $('#table-content').append(tableRow); // Thêm dòng mới vào bảng
+                })
+            },
+            error: function (xhr, status, error) {
+                var response = JSON.parse(xhr.responseText);
+
+            }
+        });
+    }
+</script>

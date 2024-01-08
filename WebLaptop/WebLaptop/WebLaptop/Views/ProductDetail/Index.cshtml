@@ -1,0 +1,273 @@
+﻿
+@{
+    var productId = ViewData["id"];
+}
+<!-- content -->
+<style>
+    .icon-hover:hover {
+        border-color: #3b71ca !important;
+        background-color: white !important;
+        color: #3b71ca !important;
+    }
+
+        .icon-hover:hover i {
+            color: #3b71ca !important;
+        }
+</style>
+<input id="productId" type="text" value="@productId" style="display:none" />
+<section class="py-5">
+    <div class="container" id="productDetail">
+      
+    </div>
+</section>
+<!-- content -->
+
+<section class="bg-light border-top py-4">
+    <div class="container">
+        <div class="row gx-4">
+            <div class="col-lg-8 mb-4">
+                <div class="border rounded-2 px-3 py-2 bg-white">
+                    <!-- Pills navs -->
+                    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                        <li class="nav-item d-flex" role="presentation">
+                            <a class="nav-link d-flex align-items-center justify-content-center w-100 active" id="ex1-tab-1" data-mdb-toggle="pill" href="#ex1-pills-1" role="tab" aria-controls="ex1-pills-1" aria-selected="true">Thông tin cơ bản</a>
+                        </li>
+                        <li class="nav-item d-flex" role="presentation">
+                            <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-2" data-mdb-toggle="pill" href="#ex1-pills-2" role="tab" aria-controls="ex1-pills-2" aria-selected="false">Thông số cấu hình</a>
+                        </li>
+                        <li class="nav-item d-flex" role="presentation">
+                            <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-3" data-mdb-toggle="pill" href="#ex1-pills-3" role="tab" aria-controls="ex1-pills-3" aria-selected="false">Đánh giá</a>
+                        </li>
+                        <li class="nav-item d-flex" role="presentation">
+                            <a class="nav-link d-flex align-items-center justify-content-center w-100" id="ex1-tab-4" data-mdb-toggle="pill" href="#ex1-pills-4" role="tab" aria-controls="ex1-pills-4" aria-selected="false">So sánh sản phẩm</a>
+                        </li>
+                    </ul>
+                    <!-- Pills navs -->
+                    <!-- Pills content -->
+                    <div class="tab-content" id="ex1-content">
+                        <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+                            <p id="desProduct">
+                                
+                            </p>
+                            <div class="row mb-2">
+                                <div class="col-12 col-md-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><i class="fa fa-check text-success me-2"></i>Some great feature name here</li>
+                                        <li><i class="fa fa-check text-success me-2"></i>Lorem ipsum dolor sit amet, consectetur</li>
+                                        <li><i class="fa fa-check text-success me-2"></i>Duis aute irure dolor in reprehenderit</li>
+                                        <li><i class="fa fa-check text-success me-2"></i>Optical heart sensor</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-6 mb-0">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-check text-success me-2"></i>Easy fast and ver good</li>
+                                        <li><i class="fa fa-check text-success me-2"></i>Some great feature name here</li>
+                                        <li><i class="fa fa-check text-success me-2"></i>Modern style and design</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <table class="table border mt-3 mb-2" id="infoProduct">
+                                
+                            </table>
+                        </div>
+                        
+                      
+                    </div>
+                    <!-- Pills content -->
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="px-0 border rounded-2 shadow-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sản phẩm liên quan</h5>
+                            <div class="d-flex mb-3">
+                                <a href="#" class="me-3">
+                                    <img src="https://cdn.tgdd.vn//News/1483012//top-5-mau-laptop-cao-cap-nhat-hien-nay-ben-dep-2-800x563.jpg" style="width: 111px; height: 96px;" class="img-md img-thumbnail" />
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="nav-link mb-1">
+                                        Asus ZenBook Pro
+                                    </a>
+                                    <strong class="text-dark ml-3"> 25.575.000đ</strong>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-3">
+                                <a href="#" class="me-3">
+                                    <img src="https://i.ytimg.com/vi/3BE4jOycy_Q/maxresdefault.jpg" style="width: 111px; height: 96px;" class="img-md img-thumbnail" />
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="nav-link mb-1">
+                                        Dell XPS 15 <br />
+                                       
+                                    </a>
+                                    <strong class="text-dark ml-3"> 26.378.000đ</strong>
+                                </div>
+                            </div>
+
+                            <div class="d-flex mb-3">
+                                <a href="#" class="me-3">
+                                    <img src="https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/134900/Originals/5-mau-laptop-dell-thong-tri-phan-khuc-cao-cap-tren-thi-truong-1.jpg" style="width: 111px; height: 96px;" class="img-md img-thumbnail" />
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="nav-link mb-1"> HP Spectre x360 </a>
+                                    <strong class="text-dark ml-3">21.450.000đ</strong>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <a href="#" class="me-3">
+                                    <img src="https://fptshop.com.vn/Uploads/Originals/2015/1/30//201501301510191832_Dell_N5547(1).jpg" style="width: 111px; height: 96px;" class="img-md img-thumbnail" />
+                                </a>
+                                <div class="info">
+                                    <a href="#" class="nav-link mb-1"> Apple MacBook</a>
+                                    <strong class="text-dark ml-3"> 56.500.000đ</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@section scripts {
+    <script>
+      
+        function getProductById() { 
+           var productId = $('#productId').val();
+            var productInfor = $("#infoProduct")
+            var productDetail = $('#productDetail')
+            var desProduct = $('#desProduct')
+                $.ajax({
+                    type: 'GET',
+                    url: `https://localhost:44388/api/Product/Get_ProductById/${productId}`,
+                    success: function (response) {
+                    var product = response.data
+                    var productHTMLDetail = 
+                    `
+                         <div class="row gx-5">
+              <aside class="col-lg-6">
+                  <div class="border rounded-4 mb-3 d-flex justify-content-center">
+                          <img  style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit" src="${product.image}" />
+                  </div>
+              </aside>
+              <main class="col-lg-6">
+                  <div class="ps-lg-3">
+                      <h4  class="title text-dark">
+                        ${product.nameProduct}
+                      </h4>
+                      <div class="d-flex flex-row my-3">
+                          <div class="text-warning mb-1 me-2">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fas fa-star-half-alt"></i>
+                              <span class="ms-1">
+                                  4.5
+                              </span>
+                          </div>
+                          <span class="text-muted"><i class="fa fa-shopping-basket fa-sm mx-1"></i>154 Người mua</span>
+
+                      </div>
+
+                      <div class="mb-3">
+                                  <span id="priceProduct" class="h5">${(product.price).toLocaleString()} VND</span>
+
+                      </div>
+
+                      <div class="row">
+                              <dt class="col-3">Màu:</dt>
+                                          <dd id="CPU" class="col-9"> ${product.color}</dd>
+                          <dt class="col-3">CPU:</dt>
+                                  <dd id="CPU" class="col-9"> ${product.cpu}</dd>
+
+                          <dt class="col-3">Ram</dt>
+                                  <dd id="Ram" class="col-9">${product.ram}</dd>
+
+                          <dt class="col-3">Ổ đĩa</dt>
+                                  <dd id="disk" class="col-9">${product.disk}</dd>
+
+                          <dt class="col-3">Card</dt>
+                                  <dd id="card" class="col-9">${product.graphics}</dd>
+                      </div>
+
+                      <hr />
+                              <button  onclick="AddtoCart(${product.id})"  class="btn btn-warning shadow-0"> Buy now </button>
+                      <button onclick="AddtoCart(${product.id})"  class="btn btn-primary shadow-0"> <i class="me-1 fa fa-shopping-basket"></i> Add to cart </button>
+                       <button class="btn btn-light border border-secondary py-2 icon-hover px-3"> <i class="me-1 fa fa-heart fa-lg"></i> Save </button>
+                  </div>
+                </main>
+             </div>
+                    `
+                    desProduct.html(product.description)
+                    productDetail.html(productHTMLDetail)
+                    var productHTML  = 
+                    `
+                            <tr>
+                                <th class="py-2">Màn hình:</th>
+                                                <td class="py-2">${product.graphics}</td>
+                            </tr>
+                            <tr>
+                                <th class="py-2">CPU:</th>
+                                        <td class="py-2">${product.graphics}</td>
+                            </tr>
+                            <tr>
+                                <th class="py-2">Ram:</th>
+                                                <td class="py-2">${product.ram}</td>
+                            </tr>
+                            <tr>
+                                <th class="py-2">Graphics</th>
+                                        <td class="py-2">${product.graphics}</td>
+                            </tr>
+                            <tr>
+                                <th class="py-2">Color</th>
+                                        <td class="py-2">${product.color}</td>
+                            </tr>
+                            <tr>
+                                <th class="py-2">Bộ nhớ trong</th>
+                                        <td class="py-2">${product.disk}</td>
+                            </tr>
+                    `
+                    productInfor.html(productHTML)
+                    },
+                    error: function (xhr, status, error) {
+                    }
+                });
+       
+        }
+        getProductById()
+        function AddtoCart(idProduct) {
+            var user = JSON.parse(localStorage.getItem('user'))
+      
+            if (!user) {
+                alert('Vui lòng đăng nhập để xử dụng chức năng này')
+                window.location.href = "@Url.Action("Index", "Login")"
+            }
+            else {
+                console.log(user)
+                var formData = {
+                    idProduct:idProduct,
+                    quantity:0,
+                    price: 0
+                }
+                var jsonData = JSON.stringify(formData);
+                $.ajax({
+                    type: 'POST',
+                    url: `https://localhost:44388/api/Carts/Create_Carts?IdUser=${user.id}`,
+                    data: jsonData,
+                    contentType: 'application/json',
+                    success: function (response) {
+                       alert(response.message)
+
+                    },
+                    error: function (xhr, status, error) {
+                    }
+                });
+            }
+           
+        }
+    </script>
+}

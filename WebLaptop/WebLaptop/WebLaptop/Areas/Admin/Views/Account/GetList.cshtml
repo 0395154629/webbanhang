@@ -1,0 +1,63 @@
+﻿<style>
+    td {
+        max-width: 200px; /* Độ rộng tối đa của ô */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<table class="table table-bordered">
+        <tr>
+            <th>Tên khách hàng</th>
+            <th>Địa chỉ</th>
+            <th>Quốc gia</th>
+            <th>Thành phố</th>
+            <th>Quận / Huyện</th>
+            <th>Phường / Xã</th>
+            <th>Tên tài khoản</th>
+            <th>Email</th>
+            <th>Số điện thoại</th>
+            <th>Quyền</th>
+        </tr>
+    <tbody id="table-content">
+    </tbody>
+</table>
+<script>
+    loadAccount()
+    function loadAccount() {
+        var table_content = $('#table-content')
+        $.ajax({
+            type: 'GET',
+            url: 'https://localhost:44388/api/account/Get_account',
+            data: {},
+            contentType: 'application/json',
+            success: function (response) {
+                response.data.forEach(function (account, index) {
+                    console.log(account)
+                    var tableRow =
+                        `
+                                <tr>
+                                        <td>${account.fullname}</td>
+                                        <td>${account.address}</td>
+                                        <td>${account.country}</td>
+                                        <td>${account.city}</td>
+                                        <td>${account.distrist}</td>
+                                        <td>${account.ward}</td>
+                                        <td>${account.userName}</td>
+                                        <td>${account.email}</td>
+                                        <td>${account.phoneNumber}</td>
+                                        <td>${account.role}</td>
+                               
+                                </tr>
+                                `;
+
+                    $('#table-content').append(tableRow); // Thêm dòng mới vào bảng
+                })
+            },
+            error: function (xhr, status, error) {
+                var response = JSON.parse(xhr.responseText);
+
+            }
+        });
+    }
+</script>

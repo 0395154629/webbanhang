@@ -1,0 +1,64 @@
+﻿<div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="nameProduct">Tên sản phẩm</label>
+        <input type="text" class="form-control" id="nameProduct" placeholder="Tên sản phẩm">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="catogeryId">Loại sản phẩm</label>
+        <input type="text" class="form-control" id="catogeryId" placeholder="">
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-lg-12">
+        <label for="description">Mô tả sản phẩm</label>
+        <textarea id="description" style="width:100%">
+
+      </textarea>
+    </div>
+   
+</div>
+<div class="form-row">
+    <div class="form-group col-lg-5">
+        <label for="price">Giá</label>
+        <input type="text" class="form-control" id="price" placeholder="Nhập giá tiền sản phẩm">
+    </div>
+    <div class="form-group col-lg-2">
+        <label for="quantity">Số lượng</label>
+        <input type="text" class="form-control" id="quantity">
+    </div>
+    <div class="form-group col-lg-5">
+        <label for="image">Ảnh sản phẩm</label>
+        <input type="file" class="form-control" id="image">
+    </div>
+</div>
+
+<div class="form-row">
+    <div class="form-group col-md-3">
+        <label for="cpu">CPU</label>
+        <input type="text" class="form-control" id="cpu" placeholder="CPU">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="ram">Ram</label>
+        <input type="text" class="form-control" id="ram" placeholder="Ram">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="disk">Bộ nhớ </label>
+        <input type="text" class="form-control" id="disk" placeholder="Dung lượng">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="graphics">Graphics</label>
+        <input type="text" class="form-control" id="graphics" placeholder="Đồ họa">
+    </div>
+</div>
+    <div class="form-group">
+    <label for="color">Màu</label>
+        <select class="form-control" id="color">
+            <option value="red">Đỏ</option>
+            <option value="green">Xanh lá</option>
+            <option value="blue">Xanh dương</option>
+            <option value="yellow">Vàng</option>
+            <!-- Thêm các tùy chọn màu khác nếu cần thiết -->
+        </select>
+    </div>
+
+<button onclick="addProduct()" class="btn btn-primary">Thêm</button>

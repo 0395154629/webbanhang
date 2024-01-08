@@ -1,0 +1,185 @@
+﻿<section class="h-100" style="background-color: #eee;">
+    <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-10">
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h3 class="fw-normal mb-0 text-black">Giỏ hàng</h3>
+                    <i class="fa-solid fa-cart-shopping" style="color: #3972d5;"></i>
+                </div>
+
+                <div class="card rounded-3 mb-4" id="list_product">
+                    
+                </div>
+
+             
+
+                <div class="card">
+                    <div class="card-body">
+                        <button onclick="CreateOrder()" type="button" id="btn-checkout" class="btn btn-warning btn-block btn-lg">
+                            Tiến hành thanh toán
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts {
+
+<script>
+     
+        function getCart() {
+            var user = JSON.parse(localStorage.getItem('user'))
+
+            if (!user) {
+                alert('Vui lòng đăng nhập để xử dụng chức năng này')
+                window.location.href = "@Url.Action("Index", "Login")"
+            }
+            else {
+                console.log(user)
+                $.ajax({
+                    type: 'GET',
+                    url: `https://localhost:44388/api/Carts/Get_Product?IdUser=${user.id}`,
+                    success: function (response) {
+                        var carts = response.data
+                            console.log(response)
+                            carts.forEach(function (res,index) {
+                            var product = res.products
+                            console.log(res)
+
+                                var productHTML = `
+                                           <div class="card-body p-4 product-cart">
+                                         <div class="row d-flex justify-content-between align-items-center">
+                                             <div class="col-md-2 col-lg-2 col-xl-2">
+                                                                 <img src="${product.image}"
+                                                      class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                             </div>
+                                             <div class="col-md-3 col-lg-3 col-xl-3">
+                                                                 <p class="lead fw-normal mb-2">${product.nameProduct}</p>
+                                                                         <p><span class="text-muted">Loại: </span>${product.idCate} <span class="text-muted">Color: </span>${product.color}</p>
+                                             </div>
+                                             <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                                  <button id="btnDecrese_${index}" class="btn btn-link px-2"
+                                                         onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                     <i class="fa fa-minus"></i>
+                                                 </button>
+                                                         <input id="quantity${index}" min="1" name="quantity" value="${res.quantity}" type="number"
+                                                        class="form-control form-control-sm" />
+                                                   
+                                                   <button id="btnIncrese_${index}"  class="btn btn-link px-2"
+                                                         onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                     <i class="fa fa-plus"></i>
+                                                 </button>
+                                             </div>
+                                             <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                                 <h5 id="price${index}" class="mb-0 product-price">${res.price}</h5>
+                                             </div>
+
+                                                  <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                        <button style="border:none" onclick="DeleteCart(${res.id})" class="text-danger"><i class="fa fa-trash fa-lg"></i></button>
+                                                </div>
+                                         </div>
+                                                    <div class="card mb-4">
+                                                        <div class="card-body p-4 d-flex flex-column">
+                                                           <button type="button" onclick="UpdateCart(${res.id}, ${'quantity' + index},${'price' + index})" class="btn btn-outline-warning btn-lg">Cập nhật</button>
+                                                        </div>
+                                                    </div>
+                                     </div>
+                                `;
+                            $('#list_product').append(productHTML);
+                            var oldPrice = product.price;
+                            $(`#btnDecrese_${index}`).on('click', function () {
+                                var quantityValue = $(`#quantity${index}`).val();
+                             
+                                var currentPriceText = $(this).closest('.product-cart').find('.product-price').text();
+                                var currentPrice = parseFloat(currentPriceText.replace(/[^\d.-]/g, ''));
+                                var newPrice = currentPrice - oldPrice;
+                                if (quantityValue == 1) {
+                                    newPrice = oldPrice;
+                                }
+                                console.log(newPrice)
+                                $(this).closest('.product-cart').find('.product-price').text(newPrice);
+                              
+                            });
+                            $(`#btnIncrese_${index}`).on('click', function () {
+                                var currentPriceText = $(this).closest('.product-cart').find('.product-price').text();
+                                var currentPrice = parseFloat(currentPriceText.replace(/[^\d.-]/g, '')); 
+                                var newPrice = currentPrice + oldPrice;
+                                console.log(newPrice);
+                                $(this).closest('.product-cart').find('.product-price').text(newPrice);
+                            });
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                    }
+                });
+            }
+
+        }
+    function UpdateCart(id, quantity, price) {
+            var updateData = [{
+                IdCart: id,
+                Quantity: parseInt($(quantity).val()),
+                Price: parseFloat($(price).text())
+            }];
+            var jsonData = JSON.stringify(updateData);
+        $.ajax({
+                type: 'PUT',
+                url: `https://localhost:44388/api/Carts/Update_Carts`,
+                contentType: 'application/json',
+                data: JSON.stringify(updateData),
+                success: function (response) {
+                    // alert(response.message)
+                    location.reload()
+                },
+                error: function (xhr, status, error) {
+                }
+            });
+        }
+        function DeleteCart(id) {
+                    $.ajax({
+                        type: 'DELETE',
+                        url: `https://localhost:44388/api/Carts/Delete_Carts/` + id,
+                        success: function (response) {
+                            // alert(response.message)
+                            location.reload()
+                        },
+                        error: function (xhr, status, error) {
+                        }
+                    });
+        }
+        function CreateOrder() {
+              var user = JSON.parse(localStorage.getItem('user'))
+              console.log(user)
+              var idUser = user.id
+                $.ajax({
+                type:'POST',
+                url: 'https://localhost:44388/api/Order/CreateOrder?IdUser='+ idUser,
+                    success: function (response) {
+                        alert(response.message)
+                    },
+                    error: function (xhr, status, error) {
+
+                    }
+                });
+        }
+        $(document).ready(function () {
+            getCart()
+        })
+        function productDetail(productId) {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("RedirectToProductDetail")',
+                data: { id: productId },
+                success: function (response) {
+                    window.location.href = response.redirectUrl;
+                },
+                error: function (xhr, status, error) {
+
+                }
+            });
+        }
+</script>
+}

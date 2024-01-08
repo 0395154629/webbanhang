@@ -1,0 +1,115 @@
+﻿<!-- product section -->
+<section class="product_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                Tất cả <span>Sản phẩm</span>
+            </h2>
+        </div>
+        <div class="row" id="productList">
+          
+        </div>
+        <div class="btn-box">
+            <a href="">
+                View All products
+            </a>
+        </div>
+    </div>
+</section>
+<!-- end product section -->
+    @section scripts {
+    <script>
+        function loadProduct() {
+            $.ajax({
+                type: 'GET',
+                url: 'https://localhost:44388/api/Product/Get_Product',
+                data: {},
+                contentType: 'application/json',
+                success: function (response) {
+                    console.log(response.data)
+                    displayProducts(response.data);
+                },
+                error: function (xhr, status, error) {
+                    var response = JSON.parse(xhr.responseText);
+                    alert(response.message);
+                }
+            });
+        }
+        function displayProducts(products) {
+            var productListDiv = $('#productList');
+            products.forEach(function (product) {
+                var productHTML = `
+                            <div class="col-sm-6 col-md-4 col-lg-4">
+                                <div class="box">
+                                    <div class="option_container">
+                                        <div class="options">
+                                           <a onclick="handleProductClick(event,${product.id})" class="option1">Xem chi tiết</a>
+                                                            <a  onclick="AddtoCart(${product.id})"class="option2"> Buy now </a>
+                                        </div>
+                                    </div>
+                                    <div class="img-box">
+                                        <img src="${product.image}" alt="">
+                                    </div>
+                                    <div class="detail-box">
+                                                <h5>${product.nameProduct}</h5>
+                                        <h6>${product.price} VNG</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+
+                productListDiv.append(productHTML);
+            });
+        }
+        loadProduct();
+        function AddtoCart(idProduct) {
+            var user = JSON.parse(localStorage.getItem('user'))
+
+            if (!user) {
+                alert('Vui lòng đăng nhập để xử dụng chức năng này')
+                window.location.href = "@Url.Action("Index", "Login")"
+            }
+            else {
+                console.log(user)
+                var formData = {
+                    idProduct: idProduct,
+                    quantity: 0,
+                    price: 0
+                }
+                var jsonData = JSON.stringify(formData);
+                $.ajax({
+                    type: 'POST',
+                    url: `https://localhost:44388/api/Carts/Create_Carts?IdUser=${user.id}`,
+                    data: jsonData,
+                    contentType: 'application/json',
+                    success: function (response) {
+                        alert(response.message)
+
+                    },
+                    error: function (xhr, status, error) {
+                    }
+                });
+            }
+
+        }
+        function handleProductClick(event, productId) {
+            event.preventDefault(); 
+            productDetail(productId);
+        }
+
+        function productDetail(productId) {
+            $.ajax({
+                type:'POST',
+                url: '@Url.Action("RedirectToProductDetail")',
+                data: {id:productId},
+                success: function (response) {
+                    window.location.href = response.redirectUrl;
+                },
+                error: function (xhr, status, error) {
+                   
+                }
+            });
+        }
+    </script>
+}
+

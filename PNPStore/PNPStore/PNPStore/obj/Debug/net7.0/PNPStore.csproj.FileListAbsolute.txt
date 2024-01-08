@@ -1,0 +1,261 @@
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.AssemblyReference.cache
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.AssemblyInfoInputs.cache
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.AssemblyInfo.cs
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.CoreCompileInputs.cache
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.MvcApplicationPartsAssemblyInfo.cs
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.MvcApplicationPartsAssemblyInfo.cache
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\appsettings.Development.json
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\appsettings.json
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.staticwebassets.runtime.json
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.exe
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.deps.json
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.runtimeconfig.json
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.pdb
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Azure.Core.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Azure.Identity.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Humanizer.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.CodeDom.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.Memory.Data.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CTDLGT\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.PNPStore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.build.PNPStore.props
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PNPStore.props
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PNPStore.props
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.build.json
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.development.json
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\scopedcss\bundle\PNPStore.styles.css
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.CopyComplete
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.dll
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\refint\PNPStore.dll
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.pdb
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.genruntimeconfig.cache
+D:\CTDLGT\PNPStore\PNPStore\obj\Debug\net7.0\ref\PNPStore.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\appsettings.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.staticwebassets.runtime.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.exe
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.deps.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.runtimeconfig.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.pdb
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Humanizer.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.AssemblyInfo.cs
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.PNPStore.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.build.PNPStore.props
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PNPStore.props
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PNPStore.props
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\scopedcss\bundle\PNPStore.styles.css
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.CopyComplete
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\refint\PNPStore.dll
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.pdb
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.genruntimeconfig.cache
+C:\Users\User\Downloads\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\ref\PNPStore.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\appsettings.Development.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\appsettings.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.staticwebassets.runtime.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.exe
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.deps.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.runtimeconfig.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\PNPStore.pdb
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Azure.Core.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Azure.Identity.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Humanizer.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.CodeDom.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Memory.Data.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.AssemblyReference.cache
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.AssemblyInfoInputs.cache
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.AssemblyInfo.cs
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.CoreCompileInputs.cache
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.MvcApplicationPartsAssemblyInfo.cs
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.MvcApplicationPartsAssemblyInfo.cache
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.PNPStore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.build.PNPStore.props
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PNPStore.props
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PNPStore.props
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.pack.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.build.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\staticwebassets.development.json
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\scopedcss\bundle\PNPStore.styles.css
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.csproj.CopyComplete
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\refint\PNPStore.dll
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.pdb
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\PNPStore.genruntimeconfig.cache
+D:\_Duy_Phuong\web ban hang\PNPStore\PNPStore\PNPStore\obj\Debug\net7.0\ref\PNPStore.dll

@@ -1,0 +1,57 @@
+﻿<style>
+    td {
+        max-width: 200px; /* Độ rộng tối đa của ô */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<table class="table table-bordered">
+        <tr>
+            <th></th>
+            <th>Tên danh mục</th>
+            <th>Hình ảnh</th>
+           
+      
+        </tr>
+    <tbody id="table-content">
+    </tbody>
+</table>
+ <script>
+        loadCategory()
+    function loadCategory() {
+        var table_content = $('#table-content')
+        $.ajax({
+            type: 'GET',
+            url: 'https://localhost:44388/api/Category/Get_Categorys',
+            data: {},
+            contentType: 'application/json',
+            success: function (response) {
+                response.data.forEach(function (cate, index) {
+                    console.log(cate.images)
+                    var tableRow =
+                        `
+                                <tr>
+                                    <td class ="bold">
+                                                 <a onclick="LoadEdit(${cate.id})" class="btn">
+                                                <i class="fa fa-edit"></i> Sửa
+                                            </a>
+                                                <a onclick="Delete(${cate.id})" class="btn">
+                                                <i class="fa fa-trash"></i> Xoá
+                                            </a>
+                                    </td>
+                                        <td>${cate.nameCategory}</td>
+                                                <td>  <img src="${cate.images}" width="50" heignt = "50"/> </td>
+                                </tr>
+                                `;
+
+                    $('#table-content').append(tableRow);
+                })
+            },
+            error: function (xhr, status, error) {
+                var response = JSON.parse(xhr.responseText);
+
+            }
+        });
+    }
+</script>
